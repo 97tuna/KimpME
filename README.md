@@ -7,11 +7,9 @@
     <img width="400px" src="https://user-images.githubusercontent.com/50114556/121816502-016e0100-ccb7-11eb-96a9-7f9b0b4b6cd3.png">
 </p>
 <br>
-
 <!-- KimpMe 앱 사진 -->
 <p align="center">
-    <img width="300px" src="https://user-images.githubusercontent.com/50114556/121816454-a936ff00-ccb6-11eb-82a1-56777b0da59f.PNG">
-    <img width="300px" src="https://user-images.githubusercontent.com/50114556/121816486-e56a5f80-ccb6-11eb-929b-cae9af9d8119.PNG">
+    <img width="900px" src="https://user-images.githubusercontent.com/50114556/122393980-6de74980-cfb0-11eb-8838-8f09b2269645.png">
 </p>
 <br>
 
