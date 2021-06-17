@@ -1,6 +1,6 @@
 <!-- Made By     : 2_tuna_97 -->
 
-# iOS앱 KimeME
+# iOS앱 KimpME
 <br>
 
 <p align="center">
