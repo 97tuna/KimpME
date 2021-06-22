@@ -1,6 +1,6 @@
 <!-- Made By     : 2_tuna_97 -->
 
-# iOS앱 KimpME
+# iOS앱 KimeME
 <br>
 
 <p align="center">
@@ -40,25 +40,28 @@
 현재 한글명, 영어 티커를 지원하며, 추후 한글 초성 검색까지 지원되도록 업데이트 할 예정 <br>
 <br>
 
+## 개발 상황
+
+ - KakaoAdFit 적용 완료 (2021.06.23)
+    > 서버 유지비가 필요합니다...🥲
+<br>
+
 ## 사용 기술
-Jetson NX가 현재 바이낸스 시세와 업비트 시세를 가지고와 DB에 실시간으로 저장 (Python)
-> DB에는 영문 티커, 한글 티커, 티커 이미지 경로, 업비트 가격, 바이낸스 가격, 김프 퍼센트, 김프 가격, 전일대비 퍼센트, 전일대비가, 업비트 거래량, 바이낸스 거래량으로 저장 (바이낸스 거래량은 현재 미지원)
+ - Jetson NX가 현재 바이낸스 시세와 업비트 시세를 가지고와 DB에 실시간으로 저장 (Python)
+    > DB에는 영문 티커, 한글 티커, 티커 이미지 경로, 업비트 가격, 바이낸스 가격, 김프 퍼센트, 김프 가격, 전일대비 퍼센트, 전일대비가, 업비트 거래량, 바이낸스 거래량으로 저장 (바이낸스 거래량은 현재 미지원)
 
-실시간 DB정보를 Firebase Realtime Database에 계속 Update (Python, 주기 0.1초)
-
-Snapkit으로 UI구축 (Swift)
-
-Kingfisher을 통한 티커 이미지 캐시화 (Swift)
-
-Firebase Realtime Database에서 계속 KimpMe로 실시간 정보 갱신
+ - 실시간 DB정보를 Firebase Realtime Database에 계속 Update (Python, 주기 0.1초)
+ - Snapkit으로 UI구축 (Swift)
+ - Kingfisher을 통한 티커 이미지 캐시화 (Swift)
+ - Firebase Realtime Database에서 계속 KimpMe로 실시간 정보 갱신
 <br>
 
 ## 추후 목표
-* 앱을 좀 더 다듬어서 앱스토어에 퍼블리싱 하는것이 목표! <br>
+ * 앱을 좀 더 다듬어서 앱스토어에 퍼블리싱 하는것이 목표! <br>
  현재 아쉬운 디자인과 색상 배치는 다크모드시에 눈이 아픈 경향이 있음. (iOS15에서 systemMint지원은 아쉽다)
-* 데이터 경량화를 통해 Firebase요금을 덜 내는 방식 구현 <br>
+ * 데이터 경량화를 통해 Firebase요금을 덜 내는 방식 구현 <br>
  데이터가 작은데도 불구하고, DB 다운로드 횟수가 많아 금액이 부담.
-* 더 많은 회사 지원 <br>
+ * 더 많은 회사 지원 <br>
  김프 비교대상으로는 후오비 코리아 지원 및 국내 거래소 추가 (빗썸, 코인원)
 <br>
 
