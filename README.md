@@ -51,7 +51,7 @@
  - Jetson NX가 현재 바이낸스 시세와 업비트 시세를 가지고와 DB에 실시간으로 저장 (Python)
     > DB에는 영문 티커, 한글 티커, 티커 이미지 경로, 업비트 가격, 바이낸스 가격, 김프 퍼센트, 김프 가격, 전일대비 퍼센트, 전일대비가, 업비트 거래량, 바이낸스 거래량으로 저장 (바이낸스 거래량은 현재 미지원)
 
- - 실시간 DB정보를 Firebase Realtime Database에 계속 Update (Python, 주기 0.1초)
+ - 실시간 DB정보를 Firebase Realtime Database에 계속 Update (Python, 주기 0.35초)
  - Snapkit으로 UI구축 (Swift)
  - Kingfisher을 통한 티커 이미지 캐시화 (Swift)
  - Firebase Realtime Database에서 계속 KimpMe로 실시간 정보 갱신
