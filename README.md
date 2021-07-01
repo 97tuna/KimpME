@@ -9,8 +9,8 @@
 <br>
 <!-- KimpMe 앱 사진 -->
 <p align="center">
-    <img width="400px" src="https://user-images.githubusercontent.com/50114556/124180604-661abf80-daef-11eb-9e8c-9e41fc327165.PNG">
-    <img width="400px" src="https://user-images.githubusercontent.com/50114556/124180625-69ae4680-daef-11eb-91ff-8cff9d36c747.PNG">
+    <img width="400px" src="https://user-images.githubusercontent.com/50114556/124182443-d3c7eb00-daf1-11eb-95b4-93eb9f9da0ea.PNG">
+    <img width="400px" src="https://user-images.githubusercontent.com/50114556/124182453-d75b7200-daf1-11eb-87a5-ad0f8a84e7c2.PNG">
 </p>
 <br>
 
