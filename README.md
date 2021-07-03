@@ -9,8 +9,8 @@
 <br>
 <!-- KimpMe 앱 사진 -->
 <p align="center">
-    <img width="400px" src="https://user-images.githubusercontent.com/50114556/124182443-d3c7eb00-daf1-11eb-95b4-93eb9f9da0ea.PNG">
-    <img width="400px" src="https://user-images.githubusercontent.com/50114556/124182453-d75b7200-daf1-11eb-87a5-ad0f8a84e7c2.PNG">
+    <img width="400px" src="https://user-images.githubusercontent.com/50114556/124360509-368dc380-dc65-11eb-861a-0214f3ae4b21.PNG">
+    <img width="400px" src="https://user-images.githubusercontent.com/50114556/124360506-3261a600-dc65-11eb-93c3-ebcfcdf0a88c.PNG">
 </p>
 <br>
 
@@ -31,7 +31,7 @@
 > 사용자가 가장 쉽고 빠르게 김프를 확인할 수 있도록 제작 (못만들어서 기능 추가 더 안한것이 아님)
 
 1. 실시간 김치 프리미엄 확인 기능 <br>
-[바이낸스](https://binance.com/ko)시세와 [업비트](https://upbit.com)의 실시간 시세를 받아와 차액을 계산하여 각 코인당 김치 프리미엄 가격을 표기
+[바이낸스](https://binance.com/ko)시세와 [업비트](https://upbit.com), [빗썸](https://www.bithumb.com/) 실시간 시세를 받아와 차액을 계산하여 각 코인당 김치 프리미엄 가격을 표기
 
 2. 다양한 정렬 조건으로 원하는 순으로 정렬 <br>
 현재가 최고, 최저액순, 김프 최고, 최저순, 전일대비 최고, 최저순, 거래량 최고, 최저순으로 다양한 정렬을 지원함 (구현하는데 많이 힘들었음, 버튼이 꼬이게 되는것이 문제)
@@ -47,18 +47,19 @@
     > 서버 유지비가 필요합니다...🥲
  - 네트워크 상태 확인 적용 중 (2021.06.24 ~ )
  - 다양한 버튼색 적용중 (2021.07.02 ~ )
- - ❗️**중요** 빗썸 거래소 추가중 (2021.07.03 ~ , DB화 완료, 소켓통신)
-    > UI 제작 중
+ - ❗️**중요** 빗썸 거래소 추가완료 (2021.07.04)
+ - ❗️**중요** 코인원 거래소 추가중 (2021.07.05 ~ )
 <br>
 
 ## 사용 기술
- - 현재 바이낸스 시세와 업비트 시세를 가지고와 DB에 실시간으로 저장 (Python)
+ - 현재 바이낸스 시세와 업비트 시세, 빗썸시세를 가지고와 DB에 실시간으로 저장 (Python)
     > DB에는 영문 티커, 한글 티커, 티커 이미지 경로, 업비트 가격, 바이낸스 가격, 김프 퍼센트, 김프 가격, 전일대비 퍼센트, 전일대비가, 업비트 거래량, 바이낸스 거래량으로 저장 (바이낸스 거래량은 현재 미지원)
 
  - 실시간 DB정보를 Firebase Realtime Database에 계속 Update (Python, 주기 0.35초)
  - Snapkit으로 UI구축 (Swift)
  - Kingfisher을 통한 티커 이미지 캐시화 (Swift)
  - Firebase Realtime Database에서 계속 KimpMe로 실시간 정보 갱신
+ - BetterSegmentedControl를 사용하여 거래소 변경 지원
 <br>
 
 ## 추후 목표
@@ -67,7 +68,7 @@
  * 데이터 경량화를 통해 Firebase요금을 덜 내는 방식 구현 <br>
  데이터가 작은데도 불구하고, DB 다운로드 횟수가 많아 금액이 부담.
  * 더 많은 회사 지원 <br>
- 김프 비교대상으로는 후오비 코리아 지원 및 국내 거래소 추가 (빗썸, 코인원)
+ 김프 비교대상으로는 후오비 코리아 지원 및 국내 거래소 추가 (코인원예정)
 <br>
 
 ## 참고 문서
@@ -77,11 +78,13 @@
 * [Firebase](https://firebase.google.com/?hl=ko)
 * [Kingfisher](https://github.com/onevcat/Kingfisher)
 * [snapkit](https://github.com/SnapKit/SnapKit)
+* [BetterSegmentedControl](https://github.com/gmarm/BetterSegmentedControl)
 <br>
 
 ## 코인 투자에 참고해야하는 사이트
 * [바이낸스](https://binance.com/ko)
 * [업비트](https://upbit.com)
+* [빗썸](https://www.bithumb.com/)
 <br>
 
 ## Developer
