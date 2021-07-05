@@ -9,8 +9,7 @@
 <br>
 <!-- KimpMe 앱 사진 -->
 <p align="center">
-    <img width="400px" src="https://user-images.githubusercontent.com/50114556/124360509-368dc380-dc65-11eb-861a-0214f3ae4b21.PNG">
-    <img width="400px" src="https://user-images.githubusercontent.com/50114556/124360506-3261a600-dc65-11eb-93c3-ebcfcdf0a88c.PNG">
+    <img width="900px" src="https://user-images.githubusercontent.com/50114556/124435695-33531e80-ddb0-11eb-954e-8e484a2bc38c.png">
 </p>
 <br>
 
@@ -48,7 +47,7 @@
  - 네트워크 상태 확인 적용 중 (2021.06.24 ~ )
  - 다양한 버튼색 적용중 (2021.07.02 ~ )
  - ❗️**중요** 빗썸 거래소 추가완료 (2021.07.04)
- - ❗️**중요** 코인원 거래소 추가중 (2021.07.05 ~ )
+ - ❗️**중요** 코인원 거래소 추가완료 (2021.07.05)
 <br>
 
 ## 사용 기술
@@ -68,12 +67,13 @@
  * 데이터 경량화를 통해 Firebase요금을 덜 내는 방식 구현 <br>
  데이터가 작은데도 불구하고, DB 다운로드 횟수가 많아 금액이 부담.
  * 더 많은 회사 지원 <br>
- 김프 비교대상으로는 후오비 코리아 지원 및 국내 거래소 추가 (코인원예정)
+ 김프 비교대상으로는 후오비 코리아 지원예정
 <br>
 
 ## 참고 문서
 * [업비트 소켓통신](https://docs.upbit.com/docs/upbit-quotation-websocket)
 * [바이낸스 소켓통신](https://github.com/binance/binance-spot-api-docs)
+* [코인원 API](https://doc.coinone.co.kr/)
 * [MariaDB](https://mariadb.org)
 * [Firebase](https://firebase.google.com/?hl=ko)
 * [Kingfisher](https://github.com/onevcat/Kingfisher)
@@ -85,6 +85,7 @@
 * [바이낸스](https://binance.com/ko)
 * [업비트](https://upbit.com)
 * [빗썸](https://www.bithumb.com/)
+* [코인원](https://coinone.co.kr/)
 <br>
 
 ## Developer
