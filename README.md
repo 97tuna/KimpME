@@ -33,6 +33,7 @@
 1. 실시간 김치 프리미엄 확인 기능 [바이낸스](https://binance.com/ko)시세와 [업비트](https://upbit.com/), [빗썸](https://www.bithumb.com/), [코인원](https://coinone.co.kr/)의 실시간 시세를 받아와 차액을 계산하여 각 코인당 김치 프리미엄 가격을 표기
 2. 다양한 정렬 조건으로 원하는 순으로 정렬 현재가 최고, 최저액순, 김프 최고, 최저순, 전일대비 최고, 최저순, 거래량 최고, 최저순으로 다양한 정렬을 지원함 (구현하는데 많이 힘들었음, 버튼이 꼬이게 되는것이 문제)
 3. 검색하여 해당 코인 시세 및 김프 확인 상단에 SearchBar를 두어서 원하는 코인의 김프 및 현재가를 볼 수 있도록 제작 현재 한글명, 영어 티커를 지원하며, 추후 한글 초성 검색까지 지원되도록 업데이트 할 예정
+<br>
 
 ## **개발 상황**
 
@@ -64,6 +65,7 @@
 - [코인원 API](https://doc.coinone.co.kr/)
 - [Kingfisher](https://github.com/onevcat/Kingfisher)
 - [snapkit](https://github.com/SnapKit/SnapKit)
+<br>
 
 ## **코인 투자에 참고해야하는 사이트**
 
@@ -71,6 +73,7 @@
 - [업비트](https://upbit.com/)
 - [빗썸](https://www.bithumb.com/)
 - [코인원](https://coinone.co.kr/)
+<br>
 
 ## **Developer**
 <table>
