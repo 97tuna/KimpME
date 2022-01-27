@@ -17,6 +17,7 @@
         <img width="250px" src="https://user-images.githubusercontent.com/50114556/151380111-025edc9d-8540-4e61-9148-e85201e7f87c.png">
     </a>
 </p>
+<br>
 
 ## **개발 목표**
 
