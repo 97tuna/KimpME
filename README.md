@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-    <a href="https://apps.apple.com/us/app/김프미/id1606538294">
+    <a href="https://apps.apple.com/us/app/%EA%B9%80%ED%94%84%EB%AF%B8/id1606538294?ppid=7dc7e56f-07e4-4881-b9f2-c3f037453048">
         <img width="250px" src="https://user-images.githubusercontent.com/50114556/151380111-025edc9d-8540-4e61-9148-e85201e7f87c.png">
     </a>
 </p>
